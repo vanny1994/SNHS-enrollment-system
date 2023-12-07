@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to right top,  #009900, #009900);
+}
+
+
+.gradient-custom {
+    background: linear-gradient(to right top,  #009900, #009900);
+}
+
+.card-registration{
+   
+    font-size: 1rem;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+ 
+    line-height: 2.15;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+   
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+#reg {
+    text-align: center;
+}
+#student_info {
+    text-align: center;
+    background-color: #89CFF0;
+}
+#parents_info {
+    text-align: center;
+    background-color: #89CFF0;
+}
+p {
+    font-size: 10px;
+}
+#returning_info {
+    text-align: center;
+    font-size: 15px;
+    background-color: #89CFF0;
+
+}
+#par{
+    font-size: 12px;
+    font-style: italic;
+    text-indent: 40px;
+}

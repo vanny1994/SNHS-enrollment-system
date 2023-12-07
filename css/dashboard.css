@@ -1,0 +1,70 @@
+ /* Importing fonts from Google */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+
+.body{
+  max-width: 100vh;
+}
+.navbar-brand img {
+  max-width: 30%;
+  height: auto; /* or specify a specific height in pixels */
+  border-radius: 20px;
+}
+
+.navbar-brand.d-flex {
+    justify-content: center;
+    align-items: center;
+}
+      
+.nav-link {
+transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+
+
+.nav-link:hover {
+transform: translateY(-5px);
+box-shadow: -3px -3px 6px 0 rgba(116, 125, 136, 0.2),inset 3px 3px 6px 0 rgba(255, 255, 255, 0.2);
+
+
+}
+
+.nav-link:active,
+.nav-link:focus {
+text-decoration: none;
+
+}
+
+.nav-link:hover .sb-nav-link-icon {
+transform: translateY(-10px);
+}
+
+.nav-link:hover .sb-sidenav-collapse-arrow {
+transform:translateY(-10px);
+}
+
+.nav-link:hover .sb-nav-link-text {
+transform: translateY(-10px);
+
+}
+
+.nav-link:hover .sb-sidenav-collapse-arrow i {
+
+}
+.nav-link:hover span {
+transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
