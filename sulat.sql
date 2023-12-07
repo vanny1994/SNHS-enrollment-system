@@ -64,7 +64,6 @@ CREATE TABLE `enrollee` (
 --
 
 INSERT INTO `enrollee` (`enrolleeId`, `status`, `email`, `school_year`, `grade_level`, `track`, `strand`, `PSA_Birth_Cert_Num`, `LRN`, `firstName`, `middleName`, `lastName`, `extensionName`, `dateOfBirth`, `sex`, `age`, `indigenous_people_Community`, `motherTongue`, `houseNum_street`, `brgy`, `municipality`, `province`, `zipCode`, `fatherName`, `motherName`, `guardianName`, `telephoneNumber`, `cellphoneNumber`, `form9`) VALUES
-(1, 'ENROLLED', 'anaquevanny@gmail.com', '2022-2023', '7', '', '', '', '', 'JOE VANNY', 'TEOXON', 'ANAQUE', 'JR', '2023-03-08', 'MALE', 11, '', 'FILIPINO', 'PUROK 2', 'LALAWIGAN', 'BORONGAN', 'EASTERN SAMAR', '6800', 'JOSE BADIOLA', 'LIZA DALA', 'LIZA DALA', '09374848284', '09355670578', NULL),
 (8, 'PENDING', 'admin@example.com', '2022-2023', '8', '', '', '12341324232435', '', 'DFGFDGF', 'FDGDFG', 'DSFGFDGFDG', '', '2023-02-27', 'MALE', 23, '', 'FILIPINO', 'FGFBHGFNB', 'LALAWIGAN', 'BORONGAN', 'EASTERN SAMAR', '6800', 'JOSE BADIOLA', 'LIZA DALA', 'LIZA DALA', '09374848284', '09355670578', 'Screenshot (7).png'),
 (9, 'PENDING', 'admin@example.com', '2022-2023', '7', '', '', '654768787659', '', 'RAKEL', 'FGFG', 'GTFHFHGJHJ', '', '2023-02-26', 'MALE', 11, '', 'FILIPINO', 'PUROK 2', 'LALAWIGAN', 'BORONGAN', 'EASTERN SAMAR', '6800', 'JOSE BADIOLA', 'LIZA DALA', 'LIZA DALA', '09374848284', '09355670578', 'Screenshot (4).png');
 
@@ -138,8 +137,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `email`, `password`, `verificationToken`, `status`, `user-type`) VALUES
-(0, 'sirbobo1994@gmail.com', 'fe703d258c7ef5f50b71e06565a65aa07194907f', '325851', 'verified', 'user'),
-(1, 'anaquevanny@gmail.com', 'fe703d258c7ef5f50b71e06565a65aa07194907f', '426166', 'verified', 'user'),
+(0, 'sirbob@gmail.com', 'fe703d258c7ef5f50b71e06565a65aa07194907f', '325851', 'verified', 'user'),
+(1, 'user1@gmail.com', 'fe703d258c7ef5f50b71e06565a65aa07194907f', '426166', 'verified', 'user'),
 (2, 'admin@example.com', '036d0ef7567a20b5a4ad24a354ea4a945ddab676', NULL, 'verified', 'admin');
 
 --
